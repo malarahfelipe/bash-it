@@ -7,7 +7,7 @@ SCM_THEME_PROMPT_SUFFIX="${green}|"
 
 GIT_THEME_PROMPT_DIRTY=" ${red}🔥️"
 GIT_THEME_PROMPT_CLEAN=" ${bold_green}✓"
-GIT_THEME_PROMPT_PREFIX=" ${bold_cyan}"$(git config --global user.name)" ${green}| "
+GIT_THEME_PROMPT_PREFIX=" ${bold_cyan}"$(git config --global user.name)" ${green}| ${purple}"
 GIT_THEME_PROMPT_SUFFIX="${green} |"
 
 RVM_THEME_PROMPT_PREFIX="|"
